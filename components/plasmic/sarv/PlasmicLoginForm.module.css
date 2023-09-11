@@ -1,0 +1,382 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ffffff;
+  justify-self: flex-start;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-width: 0;
+  border-radius: 15px;
+  border: 1px solid #c7c5c5;
+}
+.img {
+  position: relative;
+  object-fit: scale-down;
+  max-width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  object-position: center center;
+  height: 70px;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: scale-down;
+  object-position: center center;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: scale-down;
+  object-position: center center;
+}
+.text__pYe3K {
+  position: relative;
+  width: 80%;
+  height: auto;
+  max-width: 100%;
+  text-align: right;
+  font-size: 19px;
+  font-weight: 900;
+}
+.textloginStepTwo__pYe3Kr12Cv {
+  display: none;
+}
+.textloginStepTwoError__pYe3KMsNr {
+  display: none;
+}
+.text__wFjp {
+  position: relative;
+  width: 80%;
+  height: auto;
+  max-width: 100%;
+  text-align: right;
+  font-size: 19px;
+  font-weight: 900;
+}
+.signupStepTwo2 {
+  position: relative;
+  width: 80%;
+  height: auto;
+  max-width: 100%;
+  text-align: right;
+  padding-top: 0px;
+  line-height: 2;
+  padding-bottom: 0px;
+  display: block;
+}
+.signupStepTwo2signupStepTwo {
+  padding-right: 0px;
+}
+.signupStepTwo2loginStepTwo {
+  display: none;
+}
+.signupStepTwo2signupStepTwoError {
+  padding-right: 0px;
+}
+.signupStepTwo2loginStepTwoError {
+  display: none;
+}
+.text__pvU8 {
+  position: relative;
+  width: 80%;
+  height: auto;
+  max-width: 100%;
+  text-align: right;
+  padding-top: 0px;
+  line-height: 2;
+  padding-bottom: 0px;
+}
+.textsignupStepTwo__pvU8OOjDc {
+  padding-right: 0px;
+}
+.textsignupStepTwoError__pvU8Xh86P {
+  padding-right: 0px;
+}
+.phone:global(.__wab_instance) {
+  max-width: 80%;
+  object-fit: cover;
+  position: relative;
+  margin-bottom: 0px;
+  height: 40px;
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+  text-align: right;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: linear;
+  -webkit-transition-duration: 0.25s;
+}
+.phoneempty:global(.__wab_instance) {
+  margin-bottom: 5px;
+  border: 1px solid #ff3f3f;
+}
+.phonephoneStandardCheck:global(.__wab_instance) {
+  margin-bottom: 5px;
+  border: 1px solid #f95454;
+}
+.phonesignupStepTwo:global(.__wab_instance) {
+  height: 40px;
+  flex-shrink: 0;
+  display: none;
+}
+.phoneloginStepTwo:global(.__wab_instance) {
+  display: none;
+}
+.phonesignupStepTwoError:global(.__wab_instance) {
+  height: 40px;
+  flex-shrink: 0;
+  display: none;
+}
+.phoneloginStepTwoError:global(.__wab_instance) {
+  display: none;
+}
+.token:global(.__wab_instance) {
+  max-width: 80%;
+  object-fit: cover;
+  position: relative;
+  height: 40px;
+  flex-shrink: 0;
+  display: none;
+}
+.tokensignupStepTwo:global(.__wab_instance) {
+  display: flex;
+}
+.tokenloginStepTwo:global(.__wab_instance) {
+  display: flex;
+}
+.tokensignupStepTwoError:global(.__wab_instance) {
+  display: flex;
+  border: 1px solid var(--token-1QseRFSly);
+}
+.tokenloginStepTwoError:global(.__wab_instance) {
+  color: var(--token-kzT08fQBAHgz);
+  display: flex;
+  border: 1px solid var(--token-1QseRFSly);
+}
+.text__zH9V {
+  position: relative;
+  width: 80%;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-1QseRFSly);
+  text-align: right;
+  display: none;
+}
+.textsignupStepTwoError__zH9Vxh86P {
+  display: block;
+}
+.textloginStepTwoError__zH9VmsNr {
+  display: block;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 5px;
+}
+.freeBoxloginStepTwo {
+  display: flex;
+}
+.freeBoxloginStepTwoError {
+  display: flex;
+}
+.timerText {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+}
+.embedHtml:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.timerCount {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+}
+.timerClick {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  color: var(--token-T6503Gj39);
+  cursor: pointer;
+  filter: none;
+}
+.text___6PVaW {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 80%;
+  color: #fc5e5e;
+  text-align: right;
+  margin-bottom: 21px;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  transition-property: all;
+  transition-duration: 0.25s;
+  min-width: 0;
+  display: none;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.25s;
+}
+.textempty___6PVaWhO5Nx {
+  display: block;
+}
+.textphoneStandardCheck___6PVaWp8QvV {
+  display: none;
+}
+.textsignupStepTwo___6PVaWoOjDc {
+  display: none;
+}
+.textsignupStepTwoError___6PVaWxh86P {
+  display: none;
+}
+.text__g6UA {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 80%;
+  color: #fc5e5e;
+  text-align: right;
+  margin-bottom: 21px;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  transition-property: all;
+  transition-duration: 0.25s;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.25s;
+}
+.textempty__g6UAhO5Nx {
+  padding-bottom: 0px;
+  display: none;
+}
+.textphoneStandardCheck__g6UAp8QvV {
+  display: block;
+}
+.textsignupStepTwo__g6UAOOjDc {
+  display: none;
+}
+.textsignupStepTwoError__g6UAXh86P {
+  display: none;
+}
+.stepOneButton:global(.__wab_instance) {
+  max-width: 80%;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.5s;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.5s;
+}
+.stepOneButtonempty:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.stepOneButtonphoneStandardCheck:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.stepOneButtonsignupStepTwo:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.stepOneButtonloginStepTwo:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.stepOneButtonsignupStepTwoError:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.stepOneButtonloginStepTwoError:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.svg__x3Jw2 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__j4Xpg {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.signupTokenCheck:global(.__wab_instance) {
+  max-width: 80%;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.5s;
+  flex-shrink: 0;
+  display: none;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.5s;
+}
+.signupTokenCheckempty:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.signupTokenCheckphoneStandardCheck:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.signupTokenChecksignupStepTwo:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: flex;
+}
+.signupTokenCheckloginStepTwo:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: flex;
+}
+.signupTokenChecksignupStepTwoError:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: flex;
+}
+.signupTokenCheckloginStepTwoError:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: flex;
+}
+.svg__vYpk7 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___0CUwc {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
