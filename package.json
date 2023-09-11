@@ -11,18 +11,27 @@
   "dependencies": {
     "@ant-design/icons": "^5.2.5",
     "@ant-design/pro-components": "^2.6.11",
-    "@plasmicapp/cli": "^0.1.304",
+    "@plasmicapp/cli": "^0.1.308",
     "@plasmicapp/react-web": "^0.2.244",
+    "@plasmicpkgs/antd": "^2.0.81",
     "@plasmicpkgs/antd5": "^0.0.103",
     "@plasmicpkgs/plasmic-basic-components": "^0.0.168",
     "@plasmicpkgs/plasmic-cms": "^0.0.207",
+    "@plasmicpkgs/plasmic-embed-css": "^0.1.146",
     "@plasmicpkgs/plasmic-query": "^0.0.173",
     "@plasmicpkgs/plasmic-rich-components": "^1.0.112",
+    "@plasmicpkgs/plasmic-sanity-io": "^1.0.138",
     "@plasmicpkgs/react-awesome-reveal": "^3.8.157",
+    "@plasmicpkgs/react-chartjs-2": "^1.0.53",
+    "antd": "^5.9.0",
+    "chart.js": "^4.4.0",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
     "next": "13.4.13",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   }
 }
